@@ -1,0 +1,147 @@
+.ichiban-ichiba__navbar{
+    @apply font-main;
+}
+.ichiban-ichiba__navbar__mininav {
+    @apply bg-white-50 hidden justify-between  px-[1rem] lg:px-[2rem] xl:px-[4rem]  py-[0.8rem] text-sm   lg:flex;
+}
+
+.ichiban-ichiba__navbar__mininav__highlight {
+    @apply flex items-center;
+}
+
+.ichiban-ichiba__navbar__mininav__highlight p{
+    @apply mr-8;
+}
+
+.ichiban-ichiba__navbar__mininav__highlight p > span, .ichiban-ichiba__navbar__mininav__highlight p > a {
+    @apply text-primary;
+}
+
+.ichiban-ichiba__navbar__mininav__social-links{
+    @apply flex border-l-2 border-primary items-center px-4;
+}
+
+.ichiban-ichiba__navbar__mininav__social-links a{
+    @apply  mx-4 text-xs hover:scale-110 hover:text-primary;
+}
+
+.ichiban-ichiba__navbar__mainnav {
+    @apply py-8 px-[1rem] lg:px-[2rem] xl:px-[4rem] flex justify-between;
+}
+
+.ichiban-ichiba__navbar__mainnav-links{
+    @apply min-w-[70%] pl-8 hidden lg:block;
+}
+.ichiban-ichiba__navbar__mainnav-links h6{
+    @apply hidden;
+}
+.ichiban-ichiba__navbar__mainnav-links a {
+    @apply mx-4 font-medium;
+}
+
+.ichiban-ichiba__navbar__mainnav-auth{
+    @apply  hidden lg:flex;
+}
+
+.ichiban-ichiba__navbar__mainnav-auth a {
+    @apply mx-2 hover:text-primary;
+}
+
+.ichiban-ichiba__navbar__filter {
+    @apply flex justify-between items-center py-4 px-[1rem] lg:px-[2rem] xl:px-[4rem]  flex-wrap;
+}
+
+.ichiban-ichiba__navbar__filter i{
+    @apply mr-2;
+}
+
+.ichiban-ichiba__navbar__filter__department{
+    @apply bg-primary font-bold px-4 py-4 text-white w-auto flex items-center justify-between;
+}
+
+
+.ichiban-ichiba__navbar__filter__form{
+    @apply flex items-center w-auto;
+}
+
+
+.ichiban-ichiba__navbar__filter__form input{
+    @apply py-[.5rem] px-[1.5rem] rounded-none border-[1px] border-gray-300 min-w-[50%] border-r-0 my-0 focus:outline-none;
+}
+
+.ichiban-ichiba__navbar__filter__form button {
+    @apply bg-primary py-[.5rem] px-[1.5rem] rounded-none text-white border-[1px] border-primary;
+}
+
+.ichiban-ichiba__navbar__filter__form__category-filter{
+    @apply block
+    w-full
+    text-base
+    font-normal
+    text-gray-700
+    border border-solid border-gray-300
+    focus:text-gray-700 focus:bg-white focus:outline-none rounded-none border-r-0 py-[.6rem] px-[1.5rem] max-w-[180px];
+    
+}
+
+.ichiban-ichiba__navbar__order {
+    @apply flex items-center ;
+}
+
+.ichiban-ichiba__navbar__mobile-order{
+    @apply hidden items-center;
+}
+
+.ichiban-ichiba__navbar__order a {
+    @apply mx-4;
+}
+
+.ichiban-ichiba__navbar__order a > i{
+    @apply text-xl hover:text-primary;
+}
+
+.ichiban-ichiba__navbar__order p {
+    @apply text-lg hover:text-primary cursor-pointer;
+}
+
+@media screen and (max-width: 1020px) {
+    .ichiban-ichiba__navbar__mainnav{
+        @apply py-[.5];
+    }
+    .ichiban-ichiba__navbar__filter__department {
+        @apply w-full;
+    }
+    .ichiban-ichiba__navbar__filter{
+        @apply flex-col-reverse;
+    }
+    .ichiban-ichiba__navbar__filter__form {
+        @apply w-full mb-4;
+    }
+    .ichiban-ichiba__navbar__order {
+        @apply hidden;
+    }
+    .ichiban-ichiba__navbar__mobile-order{
+        @apply flex;
+    }
+    .ichiban-ichiba__navbar__filter__form input{
+        @apply w-[90%];
+    }
+    .ichiban-ichiba__navbar__mainnav-links{
+        @apply fixed w-[70%] h-screen top-0 bg-white flex flex-col px-0 before:block z-20 before:z-10 before:bg-black-20 before:w-[30%] before:h-screen before:fixed before:top-0 before:right-[-100%] left-[-100%];
+    }
+    .ichiban-ichiba__navbar__active{
+        @apply before:right-0 left-0;
+    }
+    .ichiban-ichiba__navbar__mainnav-links a{
+        @apply border-b-[1px] border-gray-300 font-normal py-4 mx-8;
+    }
+    .ichiban-ichiba__navbar__mainnav-links h6{
+        @apply flex items-center justify-between text-center border-b-[1px] border-gray-300 py-4 px-8 text-xl bg-white-50;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ichiban-ichiba__navbar__filter__form__category-filter{
+        @apply hidden;
+    }
+}

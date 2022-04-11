@@ -1,10 +1,17 @@
 module.exports = {
-    content: [
-      "./src/**/*.{js,jsx,ts,tsx}",
-    ],
-    theme: {
-      extend: {},
+  content: [],
+  theme: {
+    extend: {
+      colors: {
+        "white-50": "#f5f5f5",
+        "primary": "#e23e1d",
+        "white": "#fff",
+        "black-20": "#000000b0"
+      },
     },
-    plugins: [],
+    fontFamily: {
+      main: ['Rubik', 'sans-serif'],
+    },
+  },
+  plugins: [],
 }
-  
