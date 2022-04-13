@@ -2,7 +2,7 @@
     @apply font-main;
 }
 .ichiban-ichiba__navbar__mininav {
-    @apply bg-white-50 hidden justify-between  px-[1rem] lg:px-[2rem] xl:px-[4rem]  py-[0.8rem] text-sm   lg:flex;
+    @apply bg-white-50 hidden justify-between py-[0.8rem] text-sm   lg:flex;
 }
 
 .ichiban-ichiba__navbar__mininav__highlight {
@@ -26,7 +26,7 @@
 }
 
 .ichiban-ichiba__navbar__mainnav {
-    @apply py-8 px-[1rem] lg:px-[2rem] xl:px-[4rem] flex justify-between;
+    @apply py-10 flex justify-between;
 }
 
 .ichiban-ichiba__navbar__mainnav-links{
@@ -48,7 +48,7 @@
 }
 
 .ichiban-ichiba__navbar__filter {
-    @apply flex justify-between items-center py-4 px-[1rem] lg:px-[2rem] xl:px-[4rem]  flex-wrap;
+    @apply flex justify-between items-center  flex-wrap;
 }
 
 .ichiban-ichiba__navbar__filter i{
@@ -59,29 +59,24 @@
     @apply bg-primary font-bold px-4 py-4 text-white w-auto flex items-center justify-between;
 }
 
+.ichiban-ichiba__navbar__filter__department button:first-child {
+    @apply block lg:hidden;
+}
 
 .ichiban-ichiba__navbar__filter__form{
     @apply flex items-center w-auto;
 }
 
-
 .ichiban-ichiba__navbar__filter__form input{
-    @apply py-[.5rem] px-[1.5rem] rounded-none border-[1px] border-gray-300 min-w-[50%] border-r-0 my-0 focus:outline-none;
+    @apply py-[.5rem] px-[1.5rem] rounded-none border-[1px] border-gray-300 min-w-[50%] border-r-0 border-l-0 my-0 focus:outline-none;
 }
 
 .ichiban-ichiba__navbar__filter__form button {
     @apply bg-primary py-[.5rem] px-[1.5rem] rounded-none text-white border-[1px] border-primary;
 }
 
-.ichiban-ichiba__navbar__filter__form__category-filter{
-    @apply block
-    w-full
-    text-base
-    font-normal
-    text-gray-700
-    border border-solid border-gray-300
-    focus:text-gray-700 focus:bg-white focus:outline-none rounded-none border-r-0 py-[.6rem] px-[1.5rem] max-w-[180px];
-    
+.ichiban-ichiba__navbar__filter__form__category-filter select{
+    @apply  max-w-[140px];
 }
 
 .ichiban-ichiba__navbar__order {
@@ -92,16 +87,14 @@
     @apply hidden items-center;
 }
 
-.ichiban-ichiba__navbar__order a {
-    @apply mx-4;
-}
-
-.ichiban-ichiba__navbar__order a > i{
-    @apply text-xl hover:text-primary;
-}
-
 .ichiban-ichiba__navbar__order p {
     @apply text-lg hover:text-primary cursor-pointer;
+}
+
+@media screen and (min-width: 1500px) {
+    .ichiban-ichiba__navbar__filter__form input{
+        @apply min-w-[600px];
+    }
 }
 
 @media screen and (max-width: 1020px) {
@@ -143,5 +136,8 @@
 @media screen and (max-width: 600px) {
     .ichiban-ichiba__navbar__filter__form__category-filter{
         @apply hidden;
+    }
+    .ichiban-ichiba__navbar__filter__form input{
+        @apply border-l-[1px];
     }
 }

@@ -1,0 +1,11 @@
+.ichiban-ichiba__navbar__order a {
+    @apply mx-2 relative;
+}
+
+.ichiban-ichiba__navbar__order a > i{
+    @apply text-xl hover:text-primary;
+}
+
+.ichiban-ichiba__navbar__order .ichiban-ichiba__navbar__order-count {
+    @apply flex w-[15px] h-[15px] rounded-full bg-primary text-white absolute top-[-2px] left-[12px]  justify-center items-center text-xs;
+}

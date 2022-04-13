@@ -6,3 +6,13 @@
 body{
     @apply m-0 p-0 overflow-x-hidden box-border;
 }
+
+.general__paddingx {
+    @apply px-4 lg:px-[2rem] xl:px-[4rem];
+}
+
+@media screen and (min-width: 2000px) {
+    body{
+        @apply mx-auto max-w-[1920px];
+    }
+}

@@ -1,0 +1,15 @@
+.ichiban__ichiba__breadcrumbs {
+    @apply my-6;
+}
+
+.ichiban__ichiba__breadcrumbs__link{
+    @apply text-gray-700 font-[400] text-sm font-medium;
+}
+
+.ichiban__ichiba__breadcrumbs__link:last-child {
+    @apply text-gray-500;
+}
+
+.ichiban__ichiba__breadcrumbs__link:not(.ichiban__ichiba__breadcrumbs__link:last-child){
+    @apply after:content-['>'] after:mx-4 after:hover:text-primary after:font-semibold after:text-lg hover:text-primary;
+}

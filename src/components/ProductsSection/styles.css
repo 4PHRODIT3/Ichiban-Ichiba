@@ -1,0 +1,65 @@
+.ichiban__ichiba__products-section{
+    @apply border-t-[1px] border-t-gray-300 font-main;
+}
+
+.ichiban__ichiba__products-section__container{
+    @apply flex flex-col lg:flex-row py-[2.5rem];
+}
+
+.ichiban__ichiba__products-section__container__products{
+    @apply w-[100%] lg:w-[75%] xl:w-[83.34%] lg:px-6 py-6 lg:py-0;
+}
+
+.sidebar__placeholder{
+    @apply w-[100%] lg:w-[25%] xl:w-[16.66%];
+}
+
+.ichiban__ichiba__products-section__container__products__filters{
+    @apply flex justify-between xl:items-center flex-col xl:flex-row;
+}
+
+.ichiban__ichiba__products-section__container__products__filters > div{
+    @apply flex items-start xl:items-center;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__left h2{
+    @apply mb-0 font-[500] text-lg xl:text-xl border-b-[1px] border-b-gray-300 after:h-[3px] after:w-[40%] after:bg-primary relative after:absolute after:-bottom-[1px] after:left-0 after:rounded pb-4 lg:pr-16 max-w-[250px] w-[100%] block lg:w-auto whitespace-nowrap;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__left__filters{
+    @apply flex;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__left__filters div{
+    @apply  md:ml-4 md:mr-0 xl:mx-8 mt-6 mr-4 md:mt-0;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__left {
+    @apply justify-between flex-col md:flex-row w-[100%] lg:w-auto items-start;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__right button > i{
+    @apply text-2xl  text-gray-600 mr-4 focus:outline-none focus-within:outline-none;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__right{
+    align-items: center !important;
+    @apply my-6;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__right button:last-child > i{
+    @apply text-lg text-black hover:text-primary ;
+}
+
+.ichiban__ichiba__products-section__container__products__filters__right__pagenum{
+    @apply hover:bg-primary hover:text-white hover:cursor-pointer py-1 px-3 border-[1px] border-gray-300 mr-3 ml-6;
+}
+
+@media screen and (max-width: 400px) {
+    .ichiban__ichiba__products-section__container__products__filters__left__filters{
+        @apply flex-wrap;
+    }
+    .ichiban__ichiba__products-section__container__products__filters__left__filters div{
+        @apply mr-0;
+    }
+}

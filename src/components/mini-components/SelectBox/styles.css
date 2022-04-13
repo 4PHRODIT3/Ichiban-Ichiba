@@ -1,0 +1,7 @@
+.ichiban__ichiba__selectbox {
+    @apply border-[1px] border-gray-300 px-4 py-[.6rem];
+}
+
+.ichiban__ichiba__selectbox select{
+    @apply block text-base text-gray-700 focus:outline-none  border-r-0 mx-auto;
+}
