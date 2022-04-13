@@ -55,6 +55,19 @@
     @apply hover:bg-primary hover:text-white hover:cursor-pointer py-1 px-3 border-[1px] border-gray-300 mr-3 ml-6;
 }
 
+/* Grid Layout Styles */
+
+.ichiban__ichiba__products-section__container__products__grid-view {
+    @apply grid gap-4 my-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3;
+}
+
+
+@media screen and (min-width:1900px) {
+    .ichiban__ichiba__products-section__container__products__grid-view{
+        @apply grid-cols-4;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .ichiban__ichiba__products-section__container__products__filters__left__filters{
         @apply flex-wrap;

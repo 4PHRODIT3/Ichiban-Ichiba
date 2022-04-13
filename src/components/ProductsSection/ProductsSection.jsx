@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
 import { SelectBox } from '../mini-components';
+import HoverCard from '../mini-components/HoverCard/HoverCard';
 import Sidebar from '../Sidebar/Sidebar';
+import { img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12 } from '../../img';
 import "./styles.css";
 
 const ProductsSection = () => {
 
   const [sortOrder,setSortOrder] = useState(0);
   const [displayLimit, setDisplayLimit ] = useState(0);
+  const [gridLayout, toggleGridLayout] = useState(true);
+  const products = [
+    {id: 1},
+    {id: 2},
+    {id: 3},
+    {id: 4},
+    {id: 5},
+  ]
 
   const sortOptions = [
     { value: 0, optionText: "Default Sorting"},
@@ -45,6 +55,27 @@ const ProductsSection = () => {
                       <button style={{marginLeft:"1rem"}}><i className="fas fa-long-arrow-alt-right"></i></button>
                     </div>
                 </div>
+                {
+                  gridLayout ? (
+                    <div className="ichiban__ichiba__products-section__container__products__grid-view">
+                        <HoverCard img={img1} />
+                        <HoverCard img={img2} />
+                        <HoverCard img={img3} />
+                        <HoverCard img={img4} />
+                        <HoverCard img={img5} />
+                        <HoverCard img={img6} />
+                        <HoverCard img={img7} />
+                        <HoverCard img={img8} />
+                        <HoverCard img={img9} />
+                        <HoverCard img={img10} />
+                        <HoverCard img={img11} />
+                        <HoverCard img={img12} />
+                    </div>
+                  ) :
+                  <div className="ichiban__ichiba__products-section__container__products__normal-view">
+
+                  </div>
+                }
             </div>
         </div>
     </div>

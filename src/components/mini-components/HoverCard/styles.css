@@ -1,0 +1,61 @@
+/* Hover Card Styles */
+.ichiban__ichiba__hover-card{
+    @apply border-[1px] border-gray-300 p-6 hover:shadow-xl relative;
+}
+
+.ichiban__ichiba__hover-card__sub-heading{
+    @apply text-xs lg:text-sm text-gray-500;
+}
+
+.ichiban__ichiba__hover-card__heading {
+    @apply my-4 text-sm lg:text-base font-medium;
+}
+
+.ichiban__ichiba__hover-card img{
+    @apply w-[300px] h-auto;
+}
+
+.ichiban__ichiba__hover-card__view{
+    @apply bg-[#f1f3fa]  rounded-[3px] text-center py-4 text-xs lg:text-sm font-medium hover:cursor-pointer hover:bg-[rgba(204,210,234,.9)] opacity-0 group-hover:opacity-100;
+    animation: dropButton 0.8s ease-in-out;
+}
+
+.ichiban__ichiba__hover-card__line {
+    @apply mb-6 border-gray-300;
+}
+
+.ichiban__ichiba__hover-card__info {
+    @apply flex justify-between items-center;
+}
+
+.ichiban__ichiba__hover-card__info h3{
+    @apply text-primary;
+}
+
+.ichiban__ichiba__hover-card__info__reviews{
+    @apply flex items-center text-xs md:text-sm text-gray-400;
+}
+
+.ichiban__ichiba__hover-card__info__reviews i{
+    @apply mx-[2px] text-yellow-400;
+}
+
+.ichiban__ichiba__hover-card__info__reviews h6{
+    @apply ml-1;
+}
+
+.ichiban__ichiba__hover-card__add-to-card{
+    @apply  absolute  border-[1px] border-t-0 border-gray-300 left-[-1px] bottom-[-96px] p-6 bg-white z-[2] text-center group-hover:shadow-xl hidden group-hover:block;
+    width: calc(100% + 2px);
+}
+.ichiban__ichiba__hover-card__add-to-card button > i {
+    @apply text-primary text-sm;
+}
+
+.ichiban__ichiba__hover-card__add-to-card button:not(#add-to-cart) {
+    @apply w-[45px] h-[45px]  border-[2px] rounded-full hover:bg-primary;
+}
+
+.ichiban__ichiba__hover-card__add-to-card #add-to-cart{
+    @apply bg-primary text-white px-4 py-3 mx-4 text-xs md:text-sm rounded-full;
+}
