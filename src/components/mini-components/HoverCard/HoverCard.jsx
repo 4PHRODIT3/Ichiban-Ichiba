@@ -27,7 +27,7 @@ const HoverCard = ({subheading,heading,price,review,img}) => {
             </div>
         </div>
         <div className="ichiban__ichiba__hover-card__add-to-card">
-            <button className='group'><i class="fa-solid fa-shuffle"></i></button>
+            <button className='group'><i className="fa-solid fa-shuffle"></i></button>
             <button id='add-to-cart'>ADD TO CART</button>
             <button className='group'><i className="fa-regular fa-heart"></i></button>
         </div>

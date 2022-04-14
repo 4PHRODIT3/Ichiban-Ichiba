@@ -29,6 +29,14 @@
     @apply py-10 flex justify-between;
 }
 
+.ichiban-ichiba__navbar__mainnav-scroll{
+    @apply fixed top-0 left-0 shadow-lg bg-white z-20 w-full py-[1.5rem];
+}
+
+.ichiban-ichiba__navbar__mainnav-hidden{
+    @apply top-[-100%];
+}
+
 .ichiban-ichiba__navbar__mainnav-links{
     @apply min-w-[70%] pl-8 hidden lg:block;
 }

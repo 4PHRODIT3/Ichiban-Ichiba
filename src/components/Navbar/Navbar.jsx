@@ -1,4 +1,4 @@
-import React,{ useState } from 'react';
+import React,{ useState,useEffect } from 'react';
 import { logo } from '../../img/index';
 import { OrderCount, SelectBox } from '../mini-components';
 
@@ -6,6 +6,28 @@ import './styles.css';
 
 const Navbar = () => {
   const [category,setCategory] = useState(0);
+  const [nav,showNav] = useState(false);
+  const [lastScrollY,setLastScrollY] = useState(0);
+
+  function navControl(){
+    if(typeof window != 'undefined'){
+      var currentScrollY = window.pageYOffset;
+      if(currentScrollY > lastScrollY || currentScrollY == 0){
+        showNav(false);
+      }
+      else{
+        showNav(true);
+      }
+      setLastScrollY(currentScrollY);
+    }
+  }
+
+  useEffect(() => {
+
+    window.addEventListener("scroll",navControl);
+    return () => window.removeEventListener("scroll",navControl);
+
+  },[lastScrollY]);
 
   const categoryOptions = [
     {value: 0, optionText: "All Categories"},
@@ -31,7 +53,7 @@ const Navbar = () => {
               <a href=""><i className="fa-brands fa-twitter"></i></a>
             </div>
         </div> 
-        <div className="ichiban-ichiba__navbar__mainnav general__paddingx">
+        <div className={`ichiban-ichiba__navbar__mainnav general__paddingx ${nav ? 'ichiban-ichiba__navbar__mainnav-scroll' : 'ichiban-ichiba__navbar__mainnav-hidden'}`}>
           <div className="">
             <img src={logo} alt="Ichiban Ichiba E-commerce Shop" />
           </div>
