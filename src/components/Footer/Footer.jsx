@@ -1,6 +1,7 @@
 import React from 'react'
 import { logo } from '../../img/index';
 import './styles.css';
+import {p1, p2, p3, p4, p5, p6} from '../../img';
 
 const Footer = () => {
   return (
@@ -19,10 +20,15 @@ const Footer = () => {
             </p>
           </div>
           <div className='ichiban-ichiba__footer__lgblk__payment'>
-            <p>Coming Soon</p>
+            <img src={p1} alt='card 1'/>
+            <img src={p2} alt='card 2'/>
+            <img src={p3} alt='card 3'/>
+            <img src={p4} alt='card 4'/>
+            <img src={p5} alt='card 5'/>
+            <img src={p6} alt='card 6'/>
           </div>
         </div>
-        <div className='ichiban-ichiba__footer__smblk'>
+        <div className='ichiban-ichiba__footer__smblk-first'>
           <div className='ichiban-ichiba__footer__smblk__head'>
             <h4>Find It Fast</h4>
           </div>
@@ -39,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='ichiban-ichiba__footer__smblk'>
-        <div className='ichiban-ichiba__footer__smblk__head'>
+          <div className='ichiban-ichiba__footer__smblk__head'>
             <h4>Information</h4>
           </div>
           <div className='ichiban-ichiba__footer__smblk__items'>
@@ -55,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='ichiban-ichiba__footer__smblk'>
-        <div className='ichiban-ichiba__footer__smblk__head'>
+          <div className='ichiban-ichiba__footer__smblk__head'>
             <h4>Customer Care</h4>
           </div>
           <div className='ichiban-ichiba__footer__smblk__items'>
@@ -76,6 +82,9 @@ const Footer = () => {
             <p>Subscribe our newsletter gor get <br></br> notification about information discount.</p>
             <input type="text" placeholder='Your Email address'></input>
             <button>Subscribe</button>
+          </div>
+          <div className='ichiban-ichiba__footer__lgblk__in-touch'>
+            <strong>GET IN TOUCH !</strong>
           </div>
         </div>
       </div>
