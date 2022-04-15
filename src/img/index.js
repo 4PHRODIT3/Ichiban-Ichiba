@@ -12,6 +12,12 @@ import img10 from "./10.jpg";
 import img11 from "./11.jpg";
 import img12 from "./12.jpg";
 import li1 from "./li1.jpg";
+import p1 from "./p1.png";
+import p2 from "./p2.png";
+import p3 from "./p3.png";
+import p4 from "./p4.png";
+import p5 from "./p5.png";
+import p6 from "./p6.png";
 
 export {
   logo,
@@ -28,4 +34,5 @@ export {
   img11,
   img12,
   li1,
+  p1, p2, p3, p4, p5, p6,
 };
