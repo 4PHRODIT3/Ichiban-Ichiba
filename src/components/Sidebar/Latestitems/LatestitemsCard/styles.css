@@ -1,0 +1,12 @@
+.ichiban-ichiba__latest-items-card{
+    @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
+}
+.ichiban-ichiba__latest-items-card-layout{
+    @apply border border-solid border-[#ebebeb] py-4 px-5 border-b-0 mt-0 min-h-min relative;
+}
+.ichiban-ichiba__latest-items-card-content{
+    @apply m-0 flex flex-wrap items-center;
+}
+.ichiban-ichiba__latest-items-card-content__pic{
+    @apply basis-1/4 p-0 relative w-full min-h-[1px] text-center;
+}

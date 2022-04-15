@@ -11,6 +11,7 @@ import img9 from "./9.jpg";
 import img10 from "./10.jpg";
 import img11 from "./11.jpg";
 import img12 from "./12.jpg";
+import li1 from "./li1.jpg";
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   img10,
   img11,
   img12,
+  li1,
 };

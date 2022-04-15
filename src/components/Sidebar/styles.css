@@ -1,3 +1,3 @@
 .ichiban__ichiba__sidebar__departments{
-    @apply border-[1px] border-gray-300  min-h-screen;
+    @apply border border-gray-300 min-h-min;
 }

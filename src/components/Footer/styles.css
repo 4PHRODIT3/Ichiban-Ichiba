@@ -1,0 +1,51 @@
+.ichiban-ichiba__footer{
+    @apply font-main;
+}
+.ichiban-ichiba__footer__area{
+    @apply bg-slate-100 pt-16 pb-12 mt-12 block box-border flex flex-row flex-wrap;
+}
+.ichiban-ichiba__footer__lgblk{
+    @apply basis-1/4 relative w-full min-h-[1px] px-4 box-border block;
+}
+.ichiban-ichiba__footer__smblk{
+    @apply basis-1/6;
+}
+.ichiban-ichiba__footer__lgblk__company-info{
+    @apply pb-4
+}
+.ichiban-ichiba__footer__lgblk__company-info img{
+    @apply mb-[30px]
+}
+.ichiban-ichiba__footer__lgblk__company-info p{
+    @apply mb-[5px]
+}
+.ichiban-ichiba__footer__lgblk__copyright{
+    @apply pt-[25px] border-t-[1px] border-zinc-200;
+}
+.ichiban-ichiba__footer__lgblk__copyright a{
+    @apply text-red-500;
+}
+.ichiban-ichiba__footer__lgblk__payment{
+    @apply box-border;
+}
+.ichiban-ichiba__footer__smblk__head{
+    @apply box-border block mb-[22px] leading-[30px];
+}
+.ichiban-ichiba__footer__smblk__items{
+    @apply box-border block leading-[26px];
+}
+.ichiban-ichiba__footer__smblk__items ul{
+    @apply m-0 p-0 list-none;
+}
+.ichiban-ichiba__footer__smblk__items li{
+    @apply hover:text-red-500;
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form{
+    @apply box-border block
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form input{
+    @apply h-[40px] border-0 pl-[15px] float-left rounded-l-[20px] w-4/6 bg-slate-300;
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form button{
+    @apply w-2/6 bg-red-500 text-[13px] text-white font-medium uppercase rounded-r-[20px] cursor-pointer transition-[0.3s] h-[40px] hover:bg-red-800 border-0;
+}
