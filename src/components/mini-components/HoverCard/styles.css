@@ -16,8 +16,7 @@
 }
 
 .ichiban__ichiba__hover-card__view{
-    @apply bg-[#f1f3fa]  rounded-[3px] text-center py-4 text-xs lg:text-sm font-medium hover:cursor-pointer hover:bg-[rgba(204,210,234,.9)] opacity-0 group-hover:opacity-100;
-    animation: dropButton 0.8s ease-in-out;
+    @apply bg-[#f1f3fa]  rounded-[3px] text-center py-4 text-xs lg:text-sm font-medium hover:cursor-pointer hover:bg-[rgba(204,210,234,.9)] opacity-0 group-hover:opacity-100 block w-full;
 }
 
 .ichiban__ichiba__hover-card__line {
@@ -30,18 +29,6 @@
 
 .ichiban__ichiba__hover-card__info h3{
     @apply text-primary;
-}
-
-.ichiban__ichiba__hover-card__info__reviews{
-    @apply flex items-center text-xs md:text-sm text-gray-400;
-}
-
-.ichiban__ichiba__hover-card__info__reviews i{
-    @apply mx-[2px] text-yellow-400;
-}
-
-.ichiban__ichiba__hover-card__info__reviews h6{
-    @apply ml-1;
 }
 
 .ichiban__ichiba__hover-card__add-to-card{

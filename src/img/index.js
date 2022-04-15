@@ -11,6 +11,12 @@ import img9 from "./9.jpg";
 import img10 from "./10.jpg";
 import img11 from "./11.jpg";
 import img12 from "./12.jpg";
+import thumb1 from "./thumb-1.jpg";
+import thumb2 from "./thumb-2.jpg";
+import thumb3 from "./thumb-3.jpg";
+import main1 from "./main-1.jpg";
+import main2 from "./main-2.jpg";
+import main3 from "./main-3.jpg";
 
 export {
   logo,
@@ -26,4 +32,10 @@ export {
   img10,
   img11,
   img12,
+  thumb1,
+  thumb2,
+  thumb3,
+  main1,
+  main2,
+  main3,
 };

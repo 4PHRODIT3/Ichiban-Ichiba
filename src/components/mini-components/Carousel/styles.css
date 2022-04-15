@@ -1,0 +1,23 @@
+.ichiban__ichiba__carousel{
+    @apply grid grid-cols-1;
+}
+
+.ichiban__ichiba__carousel__hero {
+    @apply border border-gray-200 mb-4 w-[100%];
+}
+
+.ichiban__ichiba__carousel__img-container{
+    @apply flex mx-auto flex-wrap justify-center my-4 xl:grid xl:grid-cols-3 gap-4;
+}
+
+.ichiban__ichiba__carousel__img-container__img{
+    @apply w-[100px] h-[100px] border border-gray-200;
+}
+
+.ichiban__ichiba__carousel__img-container__img img{
+    @apply w-full h-full;
+}
+
+.ichiban__ichiba__carousel__img-container__active-img{
+    @apply border-primary;
+}

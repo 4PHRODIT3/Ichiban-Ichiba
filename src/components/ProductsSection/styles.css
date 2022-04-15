@@ -55,6 +55,10 @@
     @apply hover:bg-primary hover:text-white hover:cursor-pointer py-1 px-3 border-[1px] border-gray-300 mr-3 ml-6;
 }
 
+.ichiban__ichiba__scroll-hidden{
+    @apply overflow-y-hidden;
+}
+
 /* Grid Layout Styles */
 
 .ichiban__ichiba__products-section__container__products__grid-view {

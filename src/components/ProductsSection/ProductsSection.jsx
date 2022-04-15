@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SelectBox } from '../mini-components';
+import { Modal, ProductDetails, SelectBox } from '../mini-components';
 import HoverCard from '../mini-components/HoverCard/HoverCard';
 import Sidebar from '../Sidebar/Sidebar';
 import { img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12 } from '../../img';
@@ -10,6 +10,13 @@ const ProductsSection = () => {
   const [sortOrder,setSortOrder] = useState(0);
   const [displayLimit, setDisplayLimit ] = useState(0);
   const [gridLayout, toggleGridLayout] = useState(true);
+  const [modal,showModal] = useState(false);
+
+  function toggleModal(){
+    document.body.classList.toggle('ichiban__ichiba__scroll-hidden');
+    showModal(!modal);
+  }
+
   const products = [
     {id: 1},
     {id: 2},
@@ -47,7 +54,7 @@ const ProductsSection = () => {
                     </div>
                     <div className="ichiban__ichiba__products-section__container__products__filters__right">
                       <button><i className="fas fa-th"></i></button>
-                      <button><i className="fas fa-list"></i></button>
+                      <button onClick={() => toggleGridLayout(false) }><i className="fas fa-list"></i></button>
                       <div className="ichiban__ichiba__products-section__container__products__filters__right__pagenum">
                         1
                       </div>
@@ -58,23 +65,30 @@ const ProductsSection = () => {
                 {
                   gridLayout ? (
                     <div className="ichiban__ichiba__products-section__container__products__grid-view">
-                        <HoverCard img={img1} />
-                        <HoverCard img={img2} />
-                        <HoverCard img={img3} />
-                        <HoverCard img={img4} />
-                        <HoverCard img={img5} />
-                        <HoverCard img={img6} />
-                        <HoverCard img={img7} />
-                        <HoverCard img={img8} />
-                        <HoverCard img={img9} />
-                        <HoverCard img={img10} />
-                        <HoverCard img={img11} />
-                        <HoverCard img={img12} />
+                        <HoverCard toggleModal={toggleModal} img={img1} />
+                        <HoverCard toggleModal={toggleModal} img={img2} />
+                        <HoverCard toggleModal={toggleModal} img={img3} />
+                        <HoverCard toggleModal={toggleModal} img={img4} />
+                        <HoverCard toggleModal={toggleModal} img={img5} />
+                        <HoverCard toggleModal={toggleModal} img={img6} />
+                        <HoverCard toggleModal={toggleModal} img={img7} />
+                        <HoverCard toggleModal={toggleModal} img={img8} />
+                        <HoverCard toggleModal={toggleModal} img={img9} />
+                        <HoverCard toggleModal={toggleModal} img={img10} />
+                        <HoverCard toggleModal={toggleModal} img={img11} />
+                        <HoverCard toggleModal={toggleModal} img={img12} />
                     </div>
                   ) :
                   <div className="ichiban__ichiba__products-section__container__products__normal-view">
 
                   </div>
+                }
+                {
+                  modal && (
+                    <Modal>
+                      <ProductDetails toggleModal={toggleModal} />
+                    </Modal>
+                  )
                 }
             </div>
         </div>

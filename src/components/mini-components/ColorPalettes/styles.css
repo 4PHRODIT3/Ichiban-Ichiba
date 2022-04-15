@@ -1,0 +1,7 @@
+.ichiban__ichiba__colors-choose{
+    @apply flex my-4;
+}
+
+.ichiban__ichiba__colors-choose__btn{
+    @apply w-[15px] h-[15px] rounded-full mr-4 hover:cursor-pointer;
+}
