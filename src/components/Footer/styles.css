@@ -1,8 +1,8 @@
 .ichiban-ichiba__footer{
-    @apply font-main;
+    @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
 }
 .ichiban-ichiba__footer__area{
-    @apply bg-slate-100 pt-16 pb-12 mt-12 block box-border flex flex-row flex-wrap;
+    @apply bg-slate-100 pt-16 pb-12 mt-12 box-border flex flex-row flex-wrap;
 }
 .ichiban-ichiba__footer__lgblk{
     @apply basis-1/4 relative w-full min-h-[1px] px-4 box-border block;
@@ -29,7 +29,7 @@
     @apply box-border;
 }
 .ichiban-ichiba__footer__smblk__head{
-    @apply box-border block mb-[22px] leading-[30px];
+    @apply box-border block mb-5 leading-7 text-lg font-medium;
 }
 .ichiban-ichiba__footer__smblk__items{
     @apply box-border block leading-[26px];
@@ -39,6 +39,9 @@
 }
 .ichiban-ichiba__footer__smblk__items li{
     @apply hover:text-red-500;
+}
+.ichiban-ichiba__footer__smblk__items a{
+    @apply mb-2 inline-block text-[#4c4c4c];
 }
 .ichiban-ichiba__footer__lgblk__subscribe-form{
     @apply box-border block

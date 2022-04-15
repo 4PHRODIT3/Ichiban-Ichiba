@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import {li1} from '../../../../img';
 
 const LatestitemsCard = () => {
   return (
@@ -8,7 +9,7 @@ const LatestitemsCard = () => {
             <div className='ichiban-ichiba__latest-items-card-content'>
                 <div className='ichiban-ichiba__latest-items-card-content__pic'>
                     <a href='#'>
-                        <img src="src/img/li1.jpg" alt='product'/>
+                        <img src={li1} alt='product'/>
                     </a>
                 </div>
             </div>
