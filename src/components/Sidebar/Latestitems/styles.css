@@ -1,0 +1,10 @@
+.ichiban-ichiba__sidebar__latest-items{
+    @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
+}
+.ichiban-ichiba__sidebar__latest-items__layout{
+    @apply my-7;
+}
+.ichiban-ichiba__sidebar__latest-items__layout h3{
+    @apply text-lg font-medium text-[#191919] border-b border-[#ebebeb] pb-2 mb-0 relative z-[-1] bottom-[-2px] 
+    before:bg-[#e23e1d] before:h-[3px] before:w-[70px] before:absolute before:bottom-0 before:left-0 before:mb-[-1px];
+}

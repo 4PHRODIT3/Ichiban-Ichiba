@@ -39,15 +39,19 @@
 }
 
 .ichiban__ichiba__product-details-card-body__contents__details__tags{
-    @apply flex my-4;
+    @apply flex my-4 flex-col md:flex-row;
+}
+
+.ichiban__ichiba__product-details-card-body__contents__details__tags h6{
+    @apply mr-4 my-2 md:my-0;
 }
 
 #product-tags{
-    @apply flex text-primary ml-2;
+    @apply flex text-primary md:ml-2;
 }
 
 #product-tags li{
-    @apply mx-1;
+    @apply mr-1;
 }
 
 .ichiban__ichiba__product-details-card-body__contents__actions {

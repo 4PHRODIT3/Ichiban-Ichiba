@@ -1,0 +1,90 @@
+.ichiban-ichiba__footer{
+    @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
+}
+.ichiban-ichiba__footer__area{
+    @apply bg-slate-100 pt-16 pb-12 mt-12 box-border flex flex-row flex-wrap;
+}
+.ichiban-ichiba__footer__lgblk{
+    @apply basis-1/4 relative w-full min-h-[1px] px-4 box-border block;
+}
+.ichiban-ichiba__footer__smblk-first{
+    @apply basis-1/6 relative w-full min-h-[1px] px-4 box-border block;
+}
+.ichiban-ichiba__footer__smblk{
+    @apply basis-1/6 relative w-full min-h-[1px] px-4 box-border block;
+}
+.ichiban-ichiba__footer__lgblk__company-info{
+    @apply pb-4
+}
+.ichiban-ichiba__footer__lgblk__company-info img{
+    @apply mb-[30px]
+}
+.ichiban-ichiba__footer__lgblk__company-info p{
+    @apply mb-[5px]
+}
+.ichiban-ichiba__footer__lgblk__copyright{
+    @apply pt-[25px] border-t-[1px] border-zinc-200;
+}
+.ichiban-ichiba__footer__lgblk__copyright a{
+    @apply text-red-500;
+}
+.ichiban-ichiba__footer__lgblk__payment{
+    @apply box-border;
+}
+.ichiban-ichiba__footer__lgblk__payment img{
+    @apply inline-block mr-3.5 max-w-full align-middle border-none;
+}
+.ichiban-ichiba__footer__smblk__head{
+    @apply box-border block mb-5 leading-7 text-lg font-medium text-[#191919];
+}
+.ichiban-ichiba__footer__smblk__items{
+    @apply box-border block leading-[26px];
+}
+.ichiban-ichiba__footer__smblk__items ul{
+    @apply m-0 p-0 list-none;
+}
+.ichiban-ichiba__footer__smblk__items a{
+    @apply mb-2 inline-block text-[#4c4c4c] hover:text-red-500;
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form{
+    @apply box-border block;
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form h3{
+    @apply font-light text-3xl text-[#252525] mb-2;
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form strong{
+    @apply font-medium
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form p{
+    @apply mb-5;
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form input{
+    @apply h-10 border-0 pl-4 float-left rounded-l-3xl w-4/6 bg-slate-300 ;
+}
+.ichiban-ichiba__footer__lgblk__subscribe-form button{
+    @apply w-2/6 bg-red-500 text-[13px] text-white font-medium uppercase rounded-r-3xl cursor-pointer transition-[0.3s] h-[40px] hover:bg-red-800 border-0;
+}
+.ichiban-ichiba__footer__lgblk__in-touch{
+    @apply mt-9;
+}
+.ichiban-ichiba__footer__lgblk__in-touch strong{
+    @apply mr-5 text-[#191919] uppercase font-medium;
+}
+
+@media screen and (max-width: 1020px){
+    .ichiban-ichiba__footer__lgblk{
+        @apply basis-1/2 relative w-full min-h-[1px] px-4 box-border block mb-2;
+    }
+    .ichiban-ichiba__footer__smblk-first{
+        @apply basis-1/2 relative w-full min-h-[1px] px-4 box-border block mb-2;
+    }
+    .ichiban-ichiba__footer__smblk{
+        @apply basis-1/4 relative w-full min-h-[1px] px-4 box-border block mb-2;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .ichiban-ichiba__footer__lgblk, .ichiban-ichiba__footer__smblk, .ichiban-ichiba__footer__smblk-first{
+        @apply basis-full relative w-full min-h-[1px] px-4 box-border block mb-3;
+    }
+}

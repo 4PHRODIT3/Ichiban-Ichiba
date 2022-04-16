@@ -1,0 +1,21 @@
+.ichiban-ichiba__sidebar__PL{
+    @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c]; 
+}
+.ichiban-ichiba__sidebar__PL__box{
+    @apply p-[20px];
+}
+.ichiban-ichiba__sidebar__PL__box ul{
+    @apply m-0 p-0 list-none;
+}
+.ichiban-ichiba__sidebar__PL__box li{
+    @apply mb-4 block;
+}
+.ichiban-ichiba__sidebar__PL__box a{
+    @apply text-sm font-normal font-main pl-4 relative text-zinc-900;
+}
+.ichiban-ichiba__sidebar__PL__box svg{
+    @apply w-5 h-5 top-0 left-0 absolute;
+}
+.ichiban-ichiba__sidebar__PL__item-spacing{
+    @apply flex;
+}

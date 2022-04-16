@@ -46,3 +46,10 @@
 .ichiban__ichiba__hover-card__add-to-card #add-to-cart{
     @apply bg-primary text-white px-4 py-3 mx-4 text-xs md:text-sm rounded-full;
 }
+
+.ichiban__ichiba__hover-card__info__reviews{
+    @apply flex;
+}
+.ichiban__ichiba__hover-card__info__reviews h6{
+    @apply ml-1;
+}

@@ -29,7 +29,8 @@ const ProductDetails = ({toggleModal}) => {
                     </ul>
                     
                     <div className='ichiban__ichiba__product-details-card-body__contents__details__tags'>
-                        <h6>SKU: 00012 | Categories: </h6>
+                        <h6>SKU: 00012 </h6>
+                        <h6> Categories: </h6>
                         <ul id='product-tags'>
                             <li><a href="">Tech</a></li>
                             <li><a href="">Macbook</a> </li>

@@ -5,7 +5,3 @@
 .ichiban__ichiba__review i{
     @apply mx-[2px] text-yellow-400;
 }
-
-.ichiban__ichiba__review h6{
-    @apply ml-1;
-}

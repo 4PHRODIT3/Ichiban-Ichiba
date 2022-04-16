@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Breadcrumbs } from "./components/mini-components";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import ProductsSection from "./components/ProductsSection/ProductsSection";
 // import { db } from './firestore/config';
 // import { collection, getDocs  } from 'firebase/firestore/lite';
@@ -23,6 +24,7 @@ const App = () => {
       <Navbar />
       <Breadcrumbs />
       <ProductsSection />
+      <Footer/>
     </div>
   );
 };

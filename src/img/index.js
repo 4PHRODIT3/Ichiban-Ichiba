@@ -17,6 +17,13 @@ import thumb3 from "./thumb-3.jpg";
 import main1 from "./main-1.jpg";
 import main2 from "./main-2.jpg";
 import main3 from "./main-3.jpg";
+import li1 from "./li1.jpg";
+import p1 from "./p1.png";
+import p2 from "./p2.png";
+import p3 from "./p3.png";
+import p4 from "./p4.png";
+import p5 from "./p5.png";
+import p6 from "./p6.png";
 
 export {
   logo,
@@ -38,4 +45,11 @@ export {
   main1,
   main2,
   main3,
+  li1,
+  p1,
+  p2,
+  p3,
+  p4,
+  p5,
+  p6,
 };
