@@ -11,10 +11,10 @@
     @apply mb-4 block;
 }
 .ichiban-ichiba__sidebar__PL__box a{
-    @apply text-sm font-normal font-main pl-4 relative text-zinc-900;
+    @apply text-sm font-normal pl-4 font-main relative text-zinc-900 hover:text-primary;
 }
-.ichiban-ichiba__sidebar__PL__box svg{
-    @apply w-5 h-5 top-0 left-0 absolute;
+.ichiban-ichiba__sidebar__PL__box a  i{
+    @apply mr-2 text-xs text-[#4c4c4c] absolute left-0 top-[2px] group-hover:text-primary;
 }
 .ichiban-ichiba__sidebar__PL__item-spacing{
     @apply flex;

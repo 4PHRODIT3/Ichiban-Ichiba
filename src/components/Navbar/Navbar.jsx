@@ -51,6 +51,7 @@ const Navbar = () => {
               <a href=""><i className="fa-brands fa-facebook-f"></i></a>
               <a href=""><i className="fa-brands fa-instagram"></i></a>
               <a href=""><i className="fa-brands fa-twitter"></i></a>
+              <a href=""><i className="fa-brands fa-youtube"></i></a>
             </div>
         </div> 
         <div className={`ichiban-ichiba__navbar__mainnav general__paddingx ${nav ? 'ichiban-ichiba__navbar__mainnav-scroll' : 'ichiban-ichiba__navbar__mainnav-hidden'}`}>

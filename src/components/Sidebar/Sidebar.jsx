@@ -1,8 +1,6 @@
 import React from 'react';
 import "./styles.css";
-import ProductList from './ProductList/ProductList';
-import Filter from './Filter/Filter';
-import Latestitems from './Latestitems/Latestitems';
+import { ProductList,Filter,Latestitems } from '../mini-components';
 
 const Sidebar = () => {
   return (

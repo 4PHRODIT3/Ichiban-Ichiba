@@ -9,7 +9,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Office Electronics
                     </a>
                 </div>
@@ -17,7 +17,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Tablet
                     </a>
                 </div>
@@ -25,7 +25,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Computer Components
                     </a>
                 </div>
@@ -33,7 +33,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Tablet Accessories
                     </a>
                 </div>
@@ -41,7 +41,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Computer Peripherals
                     </a>
                 </div>
@@ -49,7 +49,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Computer Peripherals
                     </a>
                 </div>
@@ -69,7 +69,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Memory Cards & SSD
                     </a>
                 </div>
@@ -89,7 +89,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Demo Boards & Accessories
                     </a>
                 </div>
@@ -97,7 +97,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Desktops & Servers
                     </a>
                 </div>
@@ -105,7 +105,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Computer & Accessories
                     </a>
                 </div>
@@ -125,7 +125,7 @@ const ProductList = () => {
             <li>
                 <div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Laptops
                     </a>
                 </div>
@@ -133,7 +133,7 @@ const ProductList = () => {
             <li>
             <   div className='ichiban-ichiba__sidebar__PL__item-spacing'> 
                     <a href='#'>
-                        <svg className='svg' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <i className="fa-solid fa-chevron-down"></i>
                         Laptop Accessories
                     </a>
                 </div>

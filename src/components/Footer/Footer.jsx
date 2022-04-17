@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <div className='ichiban-ichiba__footer__lgblk__copyright'>
             <p>
-              Copyright 2019 © <a href='#'>HakDuck</a> All rights <br></br>reserved.
+              Copyright 2019 © <a href='#'>HakDuck</a> All rights reserved.
             </p>
           </div>
           <div className='ichiban-ichiba__footer__lgblk__payment'>
