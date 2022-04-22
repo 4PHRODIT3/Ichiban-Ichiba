@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, ProductDetails, SelectBox } from '../mini-components';
-import HoverCard from '../mini-components/HoverCard/HoverCard';
+import { Modal, ProductDetails, SelectBox, HoverCard } from '../mini-components';
 import Sidebar from '../Sidebar/Sidebar';
 import { img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12 } from '../../img';
 import "./styles.css";
@@ -90,6 +89,18 @@ const ProductsSection = () => {
                     </Modal>
                   )
                 }
+                <div className="ichiban__ichiba__products-section__container__products__pagination">
+                  <div className="ichiban__ichiba__products-section__container__products__pagination__btns">
+                    <div className="ichiban__ichiba__products-section__container__products__filters__right__pagenum ichiban__ichiba__products-section__container__products__pagination--btns">
+                          1
+                    </div>
+                    <p>of&nbsp;&nbsp;3</p>
+                  </div>
+                  <div className="ichiban__ichiba__products-section__container__products__pagination__limit">
+                    <p>Showing 1–3 of 60 results </p>
+                    <SelectBox value={displayLimit} setValue={setDisplayLimit} label={"Display Limit"} options={displayLimitOptions} />
+                  </div>
+                </div>
             </div>
         </div>
     </div>

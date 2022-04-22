@@ -65,6 +65,30 @@
     @apply grid gap-4 my-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3;
 }
 
+/* Normal View Styles */
+
+
+/* Pagination */
+
+.ichiban__ichiba__products-section__container__products__pagination__btns{
+    @apply flex items-center py-4;
+}
+
+.ichiban__ichiba__products-section__container__products__pagination{
+    @apply flex justify-between items-center;
+}
+
+.ichiban__ichiba__products-section__container__products__pagination--btns{
+    @apply ml-0;
+}
+
+.ichiban__ichiba__products-section__container__products__pagination__limit{
+    @apply flex items-center;
+}
+
+.ichiban__ichiba__products-section__container__products__pagination__limit p{
+    @apply mr-6;
+}
 
 @media screen and (min-width:1900px) {
     .ichiban__ichiba__products-section__container__products__grid-view{

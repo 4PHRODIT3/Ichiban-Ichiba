@@ -10,6 +10,8 @@ import ProductList from "./ProductList/ProductList";
 import Filter from "./Filter/Filter";
 import Latestitems from "./Latestitems/Latestitems";
 import LatestitemsCard from "./LatestitemsCard/LatestitemsCard";
+import HoverCard from "./HoverCard/HoverCard";
+import HoverCart from "./HoverCart/HoverCart";
 
 export {
   SelectBox,
@@ -24,4 +26,6 @@ export {
   Filter,
   Latestitems,
   LatestitemsCard,
+  HoverCard,
+  HoverCart,
 };

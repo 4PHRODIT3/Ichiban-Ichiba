@@ -1,8 +1,8 @@
-.ichiban-ichiba__navbar__order a {
+.ichiban-ichiba__navbar__order button {
     @apply mx-2 relative;
 }
 
-.ichiban-ichiba__navbar__order a > i{
+.ichiban-ichiba__navbar__order button > i{
     @apply text-xl hover:text-primary;
 }
 

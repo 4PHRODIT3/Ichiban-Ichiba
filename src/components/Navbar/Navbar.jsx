@@ -1,13 +1,13 @@
 import React,{ useState,useEffect } from 'react';
 import { logo } from '../../img/index';
-import { OrderCount, SelectBox } from '../mini-components';
-
+import { OrderCount, SelectBox, HoverCart } from '../mini-components';
 import './styles.css';
 
 const Navbar = () => {
   const [category,setCategory] = useState(0);
   const [nav,showNav] = useState(false);
   const [lastScrollY,setLastScrollY] = useState(0);
+  const [showCart, toggleCart] = useState(false);
 
   function navControl(){
     if(typeof window != 'undefined'){
@@ -90,8 +90,13 @@ const Navbar = () => {
           <div className="ichiban-ichiba__navbar__order">
             <OrderCount icon={"fa-solid fa-truck"} link={""} />
             <OrderCount icon={"fa-regular fa-heart"} count={2} link={""} />
-            <OrderCount icon={"fa-solid fa-bag-shopping"} count={4} link={""} />
+            <OrderCount icon={"fa-solid fa-bag-shopping"} count={4} link={""} state={showCart} setState={toggleCart} />
             <p style={{marginLeft: ".5rem"}}>$ 18000</p>
+            {
+              showCart && (
+                <HoverCart />
+              )
+            }
           </div>
         </div>
     </header>

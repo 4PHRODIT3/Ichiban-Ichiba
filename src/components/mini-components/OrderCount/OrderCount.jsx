@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles.css';
 
-const OrderCount = ({path,icon,count}) => {
+const OrderCount = ({state,setState,icon,count}) => {
   return (
     <>
-        <a href="">
+        <button onClick={() => setState(!state)}>
             <i className={icon}></i>
             <div className={ count > 0 ? `ichiban-ichiba__navbar__order-count` : '' } >{count}</div>
-        </a>
+        </button>
     </>
   )
 }

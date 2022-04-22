@@ -85,6 +85,12 @@ const Footer = () => {
           </div>
           <div className='ichiban-ichiba__footer__lgblk__in-touch'>
             <strong>GET IN TOUCH !</strong>
+            <div className="ichiban-ichiba__footer__lgblk__in-touch__social-links">
+              <a><i className="fa-brands fa-facebook-f"></i></a>
+              <a><i className="fa-brands fa-twitter"></i></a>
+              <a><i className="fa-brands fa-instagram"></i></a>
+              <a><i className="fa-brands fa-youtube"></i></a>
+            </div>
           </div>
         </div>
       </div>

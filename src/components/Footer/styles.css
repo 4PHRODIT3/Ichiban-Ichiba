@@ -65,10 +65,16 @@
     @apply w-2/6 bg-red-500 text-[13px] text-white font-medium uppercase rounded-r-3xl cursor-pointer transition-[0.3s] h-[40px] hover:bg-red-800 border-0;
 }
 .ichiban-ichiba__footer__lgblk__in-touch{
-    @apply mt-9;
+    @apply mt-9 flex items-center;
 }
 .ichiban-ichiba__footer__lgblk__in-touch strong{
     @apply mr-5 text-[#191919] uppercase font-medium;
+}
+.ichiban-ichiba__footer__lgblk__in-touch__social-links{
+    @apply flex items-center;
+}
+.ichiban-ichiba__footer__lgblk__in-touch__social-links > a {
+    @apply ml-3 flex justify-center items-center w-[35px] h-[35px] rounded-full border border-gray-300 hover:bg-primary hover:text-white hover:border-primary hover:cursor-pointer duration-500;
 }
 
 @media screen and (max-width: 1020px){
