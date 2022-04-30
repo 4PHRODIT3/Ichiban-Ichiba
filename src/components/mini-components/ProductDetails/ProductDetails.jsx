@@ -4,6 +4,7 @@ import { thumb1,thumb2,thumb3,main1,main2,main3 } from '../../../img';
 import Carousel from '../Carousel/Carousel';
 import Review from '../Review/Review';
 import ColorPalettes from '../ColorPalettes/ColorPalettes';
+import PromotionPrice from '../PromotionPrice/PromotionPrice';
 
 const ProductDetails = ({toggleModal}) => {
 
@@ -48,7 +49,7 @@ const ProductDetails = ({toggleModal}) => {
                 <div className="ichiban__ichiba__product-details-card-body__contents__actions">
                     <div id='product-delivery'><i className="fa-solid fa-truck"></i> FREE DELIVERY</div>
                     <div className="ichiban__ichiba__product-details-card-body__contents__actions__price">
-                        <h3>$495.00</h3>
+                        <PromotionPrice current_price={629.99} promotion_price={495.99} />
                         <Review />
                     </div>
                     <div>

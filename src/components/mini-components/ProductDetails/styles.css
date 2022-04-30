@@ -66,10 +66,6 @@
     @apply flex justify-between items-center pt-12 pb-6;
 }
 
-.ichiban__ichiba__product-details-card-body__contents__actions__price h3{
-    @apply text-lg lg:text-2xl font-normal text-primary relative block before:content-['629.99'] before:absolute before:top-[-1.5rem] before:left-0 before:text-gray-400 before:text-sm before:lg:text-base before:line-through;
-}
-
 #product-quantity{
     @apply flex justify-between items-center;
 }

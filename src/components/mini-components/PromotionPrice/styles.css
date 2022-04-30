@@ -1,0 +1,10 @@
+.ichiban__ichiba__promotion-price{
+    @apply relative block my-4;
+}
+
+.ichiban__ichiba__promotion-price__main-price{
+    @apply text-lg lg:text-2xl text-primary block font-medium;
+}
+.ichiban__ichiba__promotion-old-price{
+    @apply line-through text-sm lg:text-base text-gray-400 top-[-1.5rem] absolute left-0 block;
+}

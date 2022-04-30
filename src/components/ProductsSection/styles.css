@@ -67,6 +67,13 @@
 
 /* Normal View Styles */
 
+.ichiban__ichiba__products-section__container__products__normal-view{
+    @apply my-4;
+}
+
+.ichiban__ichiba__products-section__container__products__normal-view > div{
+    @apply mb-6;
+}
 
 /* Pagination */
 

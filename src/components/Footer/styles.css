@@ -2,7 +2,7 @@
     @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
 }
 .ichiban-ichiba__footer__area{
-    @apply bg-slate-100 pt-16 pb-12 mt-12 box-border flex flex-row flex-wrap px-[4rem];
+    @apply bg-slate-100 pt-16 pb-12 mt-12 box-border flex flex-row flex-wrap px-[1rem] xl:px-[4rem];
 }
 .ichiban-ichiba__footer__lgblk{
     @apply basis-1/4 relative w-full min-h-[1px] px-4 box-border block;

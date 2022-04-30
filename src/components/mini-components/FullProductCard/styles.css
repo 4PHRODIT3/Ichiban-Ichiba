@@ -1,0 +1,49 @@
+.ichiban__ichiba__full-product-card{
+    @apply border border-gray-300 flex justify-between items-center p-8 font-main flex-wrap;
+}
+
+.ichiban__ichiba__full-product-card__img-section{
+    @apply basis-full xl:basis-1/4 mb-6 xl:mb-0;
+}
+.ichiban__ichiba__normal__quick-view{
+    @apply bg-[#f1f3fa]  rounded-[3px] text-center py-4 text-xs lg:text-sm font-medium hover:cursor-pointer hover:bg-[rgba(204,210,234,.9)] block w-full;
+}
+
+.ichiban__ichiba__full-product-card__content-section{
+    @apply basis-full md:basis-1/2 lg:basis-2/3 xl:basis-2/4 md:pr-4 xl:px-8;
+}
+
+.ichiban__ichiba__full-product-card__content-section__brand{
+    @apply uppercase text-xs lg:text-sm text-gray-700;
+}
+.ichiban__ichiba__full-product-card__content-section__title{
+    @apply text-xl lg:text-2xl font-medium leading-loose hover:text-primary hover:cursor-pointer my-4;
+}
+
+.ichiban__ichiba__full-product-card__content-section__facts{
+    @apply my-6;
+}
+
+.ichiban__ichiba__full-product-card__content-section__facts li{
+    @apply before:content-['-'] before:absolute before:left-0 px-4 my-4 text-gray-700 text-xs lg:text-base relative;
+}
+
+.ichiban__ichiba__full-product-card__checkout-section{
+    @apply basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4 border-0 md:border-l border-gray-300 md:pl-6 xl:px-6;
+}
+
+.ichiban__ichiba__full-product-card__checkout-section__delivery-btn{
+    @apply w-full text-center py-4 bg-[#f1f3fa]  hover:bg-[rgba(204,210,234,.9)] text-gray-600 font-normal hover:cursor-pointer mb-8;
+}
+
+.ichiban__ichiba__full-product-card__checkout-section__availability{
+    @apply mb-4;
+}
+
+.ichiban__ichiba__full-product-card__checkout-section__available{
+    @apply text-green-500;
+}
+
+.ichiban__ichiba__full-product-card__checkout-section__cart-btn{
+    @apply w-full border-2 border-l-gray-300 py-2 rounded-full hover:border-primary my-2 uppercase text-xs lg:text-sm text-gray-700 font-medium;
+}

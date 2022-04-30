@@ -26,6 +26,11 @@ import p5 from "./p5.png";
 import p6 from "./p6.png";
 import cart_img_1 from "./cart-item-1.jpg";
 import cart_img_2 from "./cart-item-2.jpg";
+import img16 from "./16.jpg";
+import img17 from "./17.jpg";
+import img18 from "./18.jpg";
+import img19 from "./19.jpg";
+
 export {
   logo,
   img1,
@@ -55,4 +60,8 @@ export {
   p6,
   cart_img_1,
   cart_img_2,
+  img16,
+  img17,
+  img18,
+  img19,
 };

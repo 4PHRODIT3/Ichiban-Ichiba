@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Modal, ProductDetails, SelectBox, HoverCard } from '../mini-components';
+import { Modal, ProductDetails, SelectBox, HoverCard, FullProductCard } from '../mini-components';
 import Sidebar from '../Sidebar/Sidebar';
-import { img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12 } from '../../img';
+import { img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img16,img17,img18,img19 } from '../../img';
 import "./styles.css";
 
 const ProductsSection = () => {
@@ -52,7 +52,7 @@ const ProductsSection = () => {
                       </div>
                     </div>
                     <div className="ichiban__ichiba__products-section__container__products__filters__right">
-                      <button><i className="fas fa-th"></i></button>
+                      <button onClick={() => toggleGridLayout(true)}><i className="fas fa-th"></i></button>
                       <button onClick={() => toggleGridLayout(false) }><i className="fas fa-list"></i></button>
                       <div className="ichiban__ichiba__products-section__container__products__filters__right__pagenum">
                         1
@@ -79,7 +79,10 @@ const ProductsSection = () => {
                     </div>
                   ) :
                   <div className="ichiban__ichiba__products-section__container__products__normal-view">
-
+                      <FullProductCard img={img16} toggleModal={toggleModal} />
+                      <FullProductCard img={img17} toggleModal={toggleModal} />
+                      <FullProductCard img={img18} toggleModal={toggleModal} />
+                      <FullProductCard img={img19} toggleModal={toggleModal} />
                   </div>
                 }
                 {
