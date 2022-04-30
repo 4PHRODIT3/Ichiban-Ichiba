@@ -24,6 +24,9 @@ import p3 from "./p3.png";
 import p4 from "./p4.png";
 import p5 from "./p5.png";
 import p6 from "./p6.png";
+import sc1 from "./shoppingCart-1.jpg";
+import sc2 from "./shoppingCart-2.jpg";
+import sc3 from "./shoppingCart-3.jpg";
 
 export {
   logo,
@@ -52,4 +55,7 @@ export {
   p4,
   p5,
   p6,
+  sc1, 
+  sc2, 
+  sc3,
 };

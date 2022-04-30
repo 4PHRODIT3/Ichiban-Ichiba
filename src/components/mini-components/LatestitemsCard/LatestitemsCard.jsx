@@ -12,6 +12,17 @@ const LatestitemsCard = () => {
                         <img src={li1} alt='product'/>
                     </a>
                 </div>
+                <div className='ichiban-ichiba__latest-items-card-content__title'>
+                    <div>
+                        <h4>
+                            <a href='#'>Vantech VP-15C3 Camera</a>
+                        </h4>
+                    </div>
+                    <div className='ichiban-ichiba__latest-items-card-content__title__pricetag'>
+                        <span>$195.00</span>
+                        <del>$229.99</del>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

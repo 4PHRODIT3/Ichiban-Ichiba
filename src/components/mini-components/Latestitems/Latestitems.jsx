@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import { LatestitemsCard } from '../index'
+import LatestitemsCard from '../LatestitemsCard/LatestitemsCard';
 
 const Latestitems = () => {
   return (
@@ -10,6 +10,8 @@ const Latestitems = () => {
                 Latest Items
             </h3>
             <div>
+                <LatestitemsCard/>
+                <LatestitemsCard/>
                 <LatestitemsCard/>
             </div>
         </div>

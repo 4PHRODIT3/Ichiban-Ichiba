@@ -1,0 +1,35 @@
+.ichiban-ichiba__shopping-cart-main{
+    @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
+}
+.ichiban-ichiba__shopping-cart-main__container{
+    @apply max-w-[1140px];
+}
+.ichiban-ichiba__shopping-cart-main__row{
+    @apply flex flex-wrap -mx-4;
+}
+.ichiban-ichiba__shopping-cart-main__col{
+    @apply max-w-full flex-[0_0_100%];
+}
+.ichiban-ichiba__shopping-cart-main__responsive{
+    @apply overflow-x-auto block w-full;
+}
+.ichiban-ichiba__shopping-cart-main__col table{
+    @apply border border-solid border-[#ebebeb] w-full border-collapse table ;
+}
+.ichiban-ichiba__shopping-cart-main__col table thead{
+    @apply border-b border-solid border-[#ebebeb] table-header-group align-middle border-inherit;
+}
+.ichiban-ichiba__shopping-cart-main__col table thead tr{
+    @apply table-row border-inherit align-middle;
+}
+.ichiban-ichiba__shopping-cart-main__col table thead tr th{
+    @apply first:pl-[70px] py-5 px-0 text-[#232530] text-base last:text-center;
+}
+.ichiban-ichiba__shopping-cart-main__col table thead tr th i{
+    @apply leading-7 text-sm text-[#111111] border border-solid border-[#e5e5e5] w-[30px] h-[30px] inline-block text-center;
+}
+.ichiban-ichiba__shopping-cart-main__col table tbody{
+    @apply table-row-group align-middle border-t-0 border-inherit;
+}
+.ichiban-ichiba__shopping-cart-main__table__product-thumb{
+}

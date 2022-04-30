@@ -2,11 +2,29 @@
     @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
 }
 .ichiban-ichiba__latest-items-card-layout{
-    @apply border border-solid border-[#ebebeb] py-4 px-5 border-b-0 mt-0 min-h-min relative;
+    @apply border border-solid border-[#ebebeb] py-4 px-5 mt-0 min-h-min relative;
 }
 .ichiban-ichiba__latest-items-card-content{
     @apply m-0 flex flex-wrap items-center;
 }
 .ichiban-ichiba__latest-items-card-content__pic{
     @apply basis-1/4 p-0 relative w-full min-h-[1px] text-center;
+}
+.ichiban-ichiba__latest-items-card-content__title{
+    @apply basis-1/2 p-0 relative w-full min-h-[1px] text-center;
+}
+.ichiban-ichiba__latest-items-card-content__title h4{
+    @apply font-medium text-sm leading-5 text-[#191919];
+}
+.ichiban-ichiba__latest-items-card-content__title a{
+    @apply hover:text-red-500;
+}
+.ichiban-ichiba__latest-items-card-content__title__pricetag{
+    @apply border-t-0 p-0;
+}
+.ichiban-ichiba__latest-items-card-content__title__pricetag span{
+    @apply text-base font-medium text-[#e23e1d] mr-[5px];
+}
+.ichiban-ichiba__latest-items-card-content__title__pricetag del{
+    @apply text-sm text-[#b7b7b7];
 }
