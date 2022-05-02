@@ -1,0 +1,27 @@
+.ichiban-ichiba__brands-area{
+    @apply font-main text-sm leading-[26px] font-normal text-[#4c4c4c];
+}
+.ichiban-ichiba__brands-area__container{
+    @apply max-w-[1800px] mt-60 w-full px-4 mx-auto;
+}
+.ichiban-ichiba__brands-area__layout{
+    @apply border border-solid border-[#ebebeb] py-[30px] px-0 text-center;
+}
+.ichiban-ichiba__brands-area__layout-row{
+    @apply flex flex-wrap -mx-4;
+}
+.ichiban-ichiba__brands-area__layout-row__col{
+    @apply flex-[0_0_100%] max-w-full;
+}
+.ichiban-ichiba__brands-area__layout-row__col-items{
+    @apply relative block box-border select-none touch-pan-y;
+}
+.ichiban-ichiba__brands-area__layout-row__col-items__list{
+    @apply relative m-0 p-0 block overflow-hidden;
+}
+.ichiban-ichiba__brands-area__layout-row__col-items__list-track{
+    @apply relative top-0 left-0 mx-auto flex place-content-around;
+}
+.ichiban-ichiba__brands-area__layout-row__col-items__list-track__brands{
+    @apply basis-1/8;
+}

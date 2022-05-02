@@ -4,9 +4,11 @@ import HoverCard from '../mini-components/HoverCard/HoverCard';
 import Sidebar from '../Sidebar/Sidebar';
 import { img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12 } from '../../img';
 import "./styles.css";
-import ShoppingCartOptions from '../mini-components/ShoppingCartOptions/ShoppingCartOptions';
-import ShoppingCartSteps from '../mini-components/ShoppingCartSteps/ShoppingCartSteps';
-import ShoppingCartMain from '../mini-components/ShoppingCartMain/ShoppingCartMain';
+// import ShoppingCartOptions from '../mini-components/ShoppingCartOptions/ShoppingCartOptions';
+// import ShoppingCartSteps from '../mini-components/ShoppingCartSteps/ShoppingCartSteps';
+// import ShoppingCartMain from '../mini-components/ShoppingCartMain/ShoppingCartMain';
+import BrandsArea from '../mini-components/BrandsArea/BrandsArea';
+
 const ProductsSection = () => {
 
   const [sortOrder,setSortOrder] = useState(0);
@@ -94,9 +96,7 @@ const ProductsSection = () => {
                 }
             </div>
         </div>
-        <ShoppingCartSteps/>
-        <ShoppingCartMain/>
-        <ShoppingCartOptions/>
+        <BrandsArea/>
     </div>
   )
 }

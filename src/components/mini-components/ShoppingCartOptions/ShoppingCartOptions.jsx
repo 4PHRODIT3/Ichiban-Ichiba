@@ -69,10 +69,10 @@ const ShoppingCartOptions = () => {
                   </div>
               </div>
               <div className='ichiban-ichiba__shopping-cart-options__discount-code'>
-                  <div className=''>
+                  <div className='ichiban-ichiba__shopping-cart-options__discount-code__heading'>
                       <h5>Discount Codes</h5>
                   </div>
-                  <div>
+                  <div className='ichiban-ichiba__shopping-cart-options__discount-code__inner'>
                       <p>Enter your coupon if you have one</p>
                       <input type='text'></input>
                       <button>Apply</button>

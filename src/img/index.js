@@ -27,6 +27,7 @@ import p6 from "./p6.png";
 import sc1 from "./shoppingCart-1.jpg";
 import sc2 from "./shoppingCart-2.jpg";
 import sc3 from "./shoppingCart-3.jpg";
+import b1 from "./brands-1.jpg";
 
 export {
   logo,
@@ -58,4 +59,5 @@ export {
   sc1, 
   sc2, 
   sc3,
+  b1
 };

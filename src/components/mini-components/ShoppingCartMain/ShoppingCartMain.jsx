@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styles.css'
-import { sc1, sc2, sc3 } from '../../img';
+import { sc1, sc2, sc3 } from '../../../img';
 
 const ShoppingCartMain = () => {
+  const[qty, setQty] = useState(1)
   return (
       <div className='ichiban-ichiba__shopping-cart-main'>
         <div className='ichiban-ichiba__shopping-cart-main__container'>
@@ -44,10 +45,14 @@ const ShoppingCartMain = () => {
                         </div>
                       </td>
                       <td>
-                        <div>
-                          <a href="#"></a>
-                          <input type="text" />
-                          <a href="#"></a>
+                        <div className='ichiban-ichiba__shopping-cart-main__table__quantity-changer'>
+                          <button className='ichiban-ichiba__shopping-cart-main__table__quantity-changer__qty-btn' onClick={() => setQty(qty - 1)}>
+                            <i className='fa-solid fa-circle-minus'></i>
+                          </button>
+                          <input type="text" value={qty}/>
+                          <button className='ichiban-ichiba__shopping-cart-main__table__quantity-changer__qty-btn' onClick={() => setQty(qty + 1)}>
+                            <i className='fa-solid fa-circle-plus'></i>
+                          </button>
                         </div>
                       </td>
                       <td>
@@ -67,7 +72,7 @@ const ShoppingCartMain = () => {
                       <td>
                         <div className='ichiban-ichiba__shopping-cart-main__table__product-thumb'>
                           <a href="#">
-                            <img src="" alt="Mac Book" />
+                            <img src={sc2} alt="Mac Book" />
                           </a>
                         </div>
                       </td>
@@ -84,10 +89,14 @@ const ShoppingCartMain = () => {
                         </div>
                       </td>
                       <td>
-                        <div>
-                          <a href="#"></a>
-                          <input type="text" />
-                          <a href="#"></a>
+                        <div className='ichiban-ichiba__shopping-cart-main__table__quantity-changer'>
+                          <button className='ichiban-ichiba__shopping-cart-main__table__quantity-changer__qty-btn' onClick={() => setQty(() => qty - 1)}>
+                            <i className='fa-solid fa-circle-minus'></i>
+                          </button>
+                          <input type="text" value={qty}/>
+                          <button className='ichiban-ichiba__shopping-cart-main__table__quantity-changer__qty-btn' onClick={() => setQty(() => qty + 1)}>
+                            <i className='fa-solid fa-circle-plus'></i>
+                          </button>
                         </div>
                       </td>
                       <td>
@@ -107,7 +116,7 @@ const ShoppingCartMain = () => {
                       <td>
                         <div className='ichiban-ichiba__shopping-cart-main__table__product-thumb'>
                           <a href="#">
-                            <img src="" alt="Mac Book" />
+                            <img src={sc3} alt="Mac Book" />
                           </a>
                         </div>
                       </td>

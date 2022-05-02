@@ -8,6 +8,9 @@ module.exports = {
         "white": "#fff",
         "black-20": "#000000b0"
       },
+      flexBasis: {
+        '1/8': '12.5',
+      },
     },
     fontFamily: {
       main: ['Rubik', 'sans-serif'],

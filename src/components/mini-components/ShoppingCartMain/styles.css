@@ -31,5 +31,20 @@
 .ichiban-ichiba__shopping-cart-main__col table tbody{
     @apply table-row-group align-middle border-t-0 border-inherit;
 }
-.ichiban-ichiba__shopping-cart-main__table__product-thumb{
+.ichiban-ichiba__shopping-cart-main__table__product-thumb{}
+.ichiban-ichiba__shopping-cart-main__col table tbody tr:first-child td{
+    @apply  py-[30px] px-[30px] ;
+}
+.ichiban-ichiba__shopping-cart-main__col table tbody tr:last-child td{
+    @apply  py-[30px] px-[30px] ;
+}
+.ichiban-ichiba__shopping-cart-main__col table tbody tr td{
+    @apply  py-[15px] px-[30px] ;
+}
+.ichiban-ichiba__shopping-cart-main__table__quantity-changer{}
+.ichiban-ichiba__shopping-cart-main__table__quantity-changer button{
+    @apply text-inherit no-underline decoration-inherit decoration-solid decoration-auto bg-transparent transition-all duration-300 ease-linear delay-[0ms];
+}
+.ichiban-ichiba__shopping-cart-main__table__quantity-changer__qty-btn :not(i){
+    @apply relative text-[0px] cursor-pointer;
 }
